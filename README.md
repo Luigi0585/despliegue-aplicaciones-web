@@ -47,7 +47,7 @@ Enlace [Amazon][aws].
 
 # Imágenes externas
 
-![Texto] ()
+![Texto] (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmWe6dyJkG9aNbye1xFb2lsc7uTooosIKaEUTOaWaXbw&s=10)
 
 # Imágenes internas
 
@@ -61,4 +61,8 @@ Enlace [Amazon][aws].
 - Item 2
 
 # Emojis
+
+
+
+# ???
 
