@@ -29,8 +29,12 @@ apt update
 apt install
 ```
 
+```python
+celsius = float(input('Introduce una temperatura en grados Celsius: '))
+farenheit = (1.8 * celsius) + 32
+print(f'La temperatura en grados Farenheit es: {farenheit}')
 ```
-```
+
 
 ```SQL
 SELECT * FROM usuarios
