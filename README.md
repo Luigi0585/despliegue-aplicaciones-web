@@ -35,10 +35,42 @@ farenheit = (1.8 * celsius) + 32
 print(f'La temperatura en grados Farenheit es: {farenheit}')
 ```
 
+```yaml
+version: '3'
+
+services: 
+  apache:
+    build: ./apache
+    ports: 
+      - 80:80
+    volumes:
+      - ./src:/var/www/html
+```
 
 ```SQL
 SELECT * FROM usuarios
 ```
+
+# HTML renderizado en GitHub
+
+sudo systemctl start apache2
+
+#!/bin/bash
+echo "Hola mundo"
+
+celsius = float(input('Introduce una temperatura en grados Celsius: '))
+farenheit = (1.8 * celsius) + 32
+print(f'La temperatura en grados Farenheit es: {farenheit}')
+
+version: '3'
+
+services: 
+  apache:
+    build: ./apache
+    ports: 
+      - 80:80
+    volumes:
+      - ./src:/var/www/html
 
 # Referencias
 [Web de AWS] (https://aws.com)
@@ -51,7 +83,7 @@ Enlace [Amazon][aws].
 
 # Imágenes externas
 
-![Texto] (https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmWe6dyJkG9aNbye1xFb2lsc7uTooosIKaEUTOaWaXbw&s=10)
+![Texto](https://iescelia.org/web/wp-content/uploads/2012/05/iescelia_1950.jpg)
 
 # Imágenes internas
 
